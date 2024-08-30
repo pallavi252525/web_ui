@@ -1,0 +1,30 @@
+.bg {
+    background-image: url('Assets/background-image.png');
+    background-size: cover;
+    background-position: center; /* Optional: Centers the image */
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Optional: Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .bg {
+        /* Add any necessary adjustments for smaller screens */
+        background-position: center; /* Ensure image remains centered */
+    }
+}
+
+@media (max-width: 480px) {
+    .bg {
+        /* Add any necessary adjustments for even smaller screens */
+        background-position: center; /* Ensure image remains centered */
+    }
+}
+
+.name { 
+    column-gap: 10px;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
